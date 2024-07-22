@@ -41,8 +41,8 @@ const trampoline = fn => (...args) => {
     return result;
 }
 
-console.log(flattenArray);
-console.log(trampoline);
+// console.log(flattenArray);
+// console.log(trampoline);
 
 const trampflatArray = trampoline(flattenArray)
 
